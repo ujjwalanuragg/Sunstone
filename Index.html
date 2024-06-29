@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ANURAG UJJWAL</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="mediaqueries.css" />
+</head>
+
+<body>
+  <nav id="desktop-nav">
+    <div class="logo">PORTFOLIO</div>
+    <div>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><a href="#projects">Hello!</a></li>
+      </ul>
+    </div>
+  </nav>
+  <nav id="hamburger-nav">
+    <div class="logo">Anurag Ujjwal</div>
+     
+    
+    <div class="hamburger-menu">
+      <div class="hamburger-icon" onclick="toggleMenu()">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+      <div class="menu-links">
+        <li><a href="#about" onclick="toggleMenu()">About</a></li>
+        <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+        <li><a href="#Hello!" onclick="toggleMenu()">Hello!</a></li>
+        <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+      </div>
+    </div>
+  </nav>
+  <section id="profile">
+    <div class="section__pic-container">
+      <img src="Images/WhatsApp Image 2024-06-22 at 3.46.19 PM.jpeg" alt="anurag" />
+    </div>
+    <div class="section__text">
+      <p class="section__text__p1">Hello, I'm</p>
+      <h1 class="title">Anurag ujjwal</h1>
+      <p class="section__text__p2">From SRMU Lucknow <br>Computer Science (2nd year) Student </p>
+      <div class="btn-container">
+        <button class="btn btn-color-2" onclick="window.open('resume.pdf')">
+          Download CV
+        </button>
+      
+      </div>
+      <div id="socials-container">
+        <img src="Images/linkedin.png" alt="My LinkedIn profile" class="icon"
+          onclick="location.href='https://www.linkedin.com/in/anurag-singh-699162290/'" />
+        <img src="Images/git.png" alt="My Github profile" class="icon"
+          onclick="location.href='https://github.com/ujjwalanuragg'" />
+      </div>
+    </div>
+  </section>
+  <section id="about">
+    <p class="section__text__p1">Get To Know More</p>
+    <h1 class="title">About Me</h1>
+    <div class="section-container">
+      <!-- <div class="section__pic-container">
+        <img src="./assets/about-pic.png" alt="Profile picture" class="about-pic" />
+      </div> -->
+      <div class="about-details-container">
+        <div class="about-containers">
+          <div class="details-container">
+            <img src="Images/download.jpg" alt="Experience icon" class="icon" />
+            <h3>BORN</h3>
+            <p>IN 2005 <br />BALLIA.</p>
+            <h3>Intermediate</h3>
+            <p>2022-2023 <br />Have secured 84% with PCM .</p>
+            <h3>High School</h3>
+            <p>2020-2021 <br />Have secured 88%  .</p>
+            <h3>Achievements</h3>
+            <p> District level champ in kabbadi  .</p>
+          </div>
+          <div class="details-container">
+            <img src="Images/sunstone-eduversity.webp" alt="Education icon" class="icon" />
+            <h3>Graduation</h3>
+            <p>2023-2027<br>B.Tech 2nd year</p>
+            <P>From sunstone-eduversity</P>
+            <P>Class Representative</P>
+          </div>
+        </div>
+        <div class="text-container">
+          <p>
+            Hi there! I'm a passionate Front End Developer with a strong background in creating dynamic and responsive
+            web applications. Also I am learning new languages.
+          </p>
+        </div>
+      </div>
+    </div>
+
+  </section>
+  <section id="experience">
+    <p class="section__text__p1">Explore My</p>
+    <h1 class="title">Experience</h1>
+    <div class="experience-details-container">
+      <div class="about-containers">
+        <div class="details-container">
+          <h2 class="experience-sub-title">Frontend Development</h2>
+          <div class="article-container">
+            <article>
+              <img src="Images/html.png" alt=" icon" class="icon" />
+              <div>
+                <h3>HTML</h3>
+                <p>Intermediate</p>
+              </div>
+            </article>
+            <article>
+              <img src="Images/css.png" alt=" icon" class="icon" />
+              <div>
+                <h3>CSS</h3>
+                <p>Experienced</p>
+              </div>
+            </article>
+            
+            <article>
+              <img src="Images/js.png" alt=" icon" class="icon" />
+              <div>
+                <h3>JavaScript</h3>
+                <p>Basic</p>
+              </div>
+            </article>
+            
+            
+          </div>
+        </div>
+        <div class="details-container">
+          <h2 class="experience-sub-title">Backend Development</h2>
+          <div class="article-container">
+            <article>
+              <img src="Images/md.png" alt="Experience icon" class="icon" />
+              <div>
+                <h3>MONGODB</h3>
+                <p>Basic</p>
+              </div>
+            </article>
+             
+            
+            <article>
+              <img src="Images/git.png" alt="Experience icon" class="icon" />
+              <div>
+                <h3>Git</h3>
+                <p>Intermediate</p>
+              </div>
+            </article>
+          </div>
+        </div>
+      </div>
+    </div>
+ 
+  </section>
+   
+  <section id="contact">
+    <p class="section__text__p1">Get in Touch</p>
+    <h1 class="title">Contact Me:8604115483</h1>
+    <div class="contact-info-upper-container">
+      <div class="contact-info-container">
+        <img src="Images/mail.png" alt="Email icon" class="icon contact-icon email-icon" />
+        <p><a href="mailto: anuragujjwal10247@gmail.com">Gmail</a></p>
+      </div>
+      <div class="contact-info-container">
+        <img src="Images/linkedin.png" alt="LinkedIn icon" class="icon contact-icon" />
+        <p><a href="https://www.linkedin.com/in/anurag-singh-699162290/">LinkedIn</a></p>
+      </div>
+    </div>
+  </section>
+
+   
+ <!-- Footer -->
+
+  <footer>
+    <nav>
+      <div class="nav-links-container">
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <li><a href="#projects">Hello!</a></li>
+        </ul>
+      </div>
+    </nav>
+   
+  <script src="script.js"></script>
+
+
+  
+    <span>
+      <a href="#"> Anurag ujjwal</a> | <span class="far fa-copyright"></span> 2024 All Rights Reserved. Privacy Policy
+    </span>
+  </footer>
+</body>
+
+</html>
