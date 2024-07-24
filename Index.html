@@ -162,8 +162,8 @@
   </section>
 
   <section id="projects">
-    <p class="section__text__p1">Browse My Recent</p>
-    <h1 class="title">Projects</h1>
+    <p class="section__text__p1">Book a Car</p>
+    <h1 class="title">Project</h1>
     <div class="experience-details-container">
       <div class="about-containers">
         <div class="details-container color-container">
@@ -200,7 +200,27 @@
     </div>
   </section>
 
-   
+   <!--visitor info-->
+   <form name="visitorForm" onsubmit="return validateForm()">
+    <h2>Visitor Information</h2>
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name">
+    <span id="nameError" class="error"></span>
+
+    <label for="mobile">Mobile Number:</label>
+    <input type="tel" id="mobile" name="mobile">
+    <span id="mobileError" class="error"></span>
+
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email">
+    <span id="emailError" class="error"></span>
+
+    <label for="organization">Organization:</label>
+    <input type="text" id="organization" name="organization">
+    <span id="organizationError" class="error"></span>
+
+    <button type="submit">Submit</button>
+</form>
  <!-- Footer -->
 
   <footer>
