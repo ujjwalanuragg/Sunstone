@@ -1,0 +1,13 @@
+body{
+    background-color: powderblue;
+    
+      .one {
+        width:45%;
+        float:left;
+      }
+      .two {
+        width:45%;
+        float:right;
+      }
+
+    }
